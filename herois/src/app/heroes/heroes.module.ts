@@ -11,6 +11,8 @@ import { BuscarComponent } from './pages/buscar/buscar.component';
 import { HeroeComponent } from './pages/heroe/heroe.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ListarComponent } from './pages/listar/listar.component';
+import { HereTarefaComponent } from './components/here-tarefa/here-tarefa.component';
+import { ImagePipe } from './pipes/image.pipe';
 
 
 
@@ -21,7 +23,9 @@ import { ListarComponent } from './pages/listar/listar.component';
     BuscarComponent,
     HeroeComponent,
     HomeComponent,
-    ListarComponent
+    ListarComponent,
+    HereTarefaComponent,
+    ImagePipe
   ],
   imports: [
     CommonModule,

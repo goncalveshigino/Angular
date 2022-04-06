@@ -23,7 +23,7 @@ const routes: Routes = [
         component: BuscarComponent,
       },
       {
-        path: 'heroe',
+        path: '/:id',
         component: HeroeComponent
       },
       {

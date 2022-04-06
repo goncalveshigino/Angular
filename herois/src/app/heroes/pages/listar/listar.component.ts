@@ -6,6 +6,11 @@ import { HeroesService } from '../../services/heroes.service';
   selector: 'app-listar',
   templateUrl: './listar.component.html',
   styles: [
+    `
+     mat-card {
+       margin-top: 20px
+     }
+    `
   ]
 })
 export class ListarComponent implements OnInit {
