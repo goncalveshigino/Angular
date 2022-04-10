@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { AdicionarComponent } from './pages/adicionar/adicionar.component';
 import { BuscarComponent } from './pages/buscar/buscar.component';
@@ -23,7 +22,7 @@ const routes: Routes = [
         component: BuscarComponent,
       },
       {
-        path: '/:id',
+        path: 'heroe/:id',
         component: HeroeComponent
       },
       {
