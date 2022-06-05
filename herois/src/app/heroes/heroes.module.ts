@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { FormsModule } from '@angular/forms';
 
 
 import { MaterialModule } from '../material/material.module';
@@ -13,6 +14,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ListarComponent } from './pages/listar/listar.component';
 import { HereTarefaComponent } from './components/here-tarefa/here-tarefa.component';
 import { ImagePipe } from './pipes/image.pipe';
+
 
 
 
@@ -30,6 +32,7 @@ import { ImagePipe } from './pipes/image.pipe';
   imports: [
     CommonModule,
     FlexLayoutModule,
+    FormsModule,
     HeroesRoutingModule,
     MaterialModule
   ]
